@@ -20,7 +20,7 @@
 }
 
 .white {
-  background-image: linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);
+  background: #30cfd0;
   background-color: antiquewhite;
   color: #282c34;
 }
@@ -44,13 +44,26 @@ h4 {
   width: 60%;
 }
 
-
 p {
   max-width: 66%;
 }
 
 span {
   font-weight: bold;
+}
+
+.Footer {
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  color: azure;
+}
+
+svg {
+  position: fixed;
+  bottom: 0;
+  opacity: 0.7;
+  z-index: -1;
 }
 
 
